@@ -1,0 +1,20 @@
+#include <LiquidCrystal.h>      //Inkluderer LCD bibliotek
+const int rs = 13, en = 12, d4 = 11, d5 = 10, d6 = 9, d7 = 8;//Her endrer du pinnene for LCDskjerm
+LiquidCrystal LCD(rs, en, d4, d5, d6, d7);    //Initialisere LCD koblingspunkt
+
+int tall = 1;
+
+
+void setup() {
+  // put your setup code here, to run once:
+LCD.begin(16, 2);      
+LCD.clear();          
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  
+
+  
+ 
+}
